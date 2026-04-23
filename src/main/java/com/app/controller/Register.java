@@ -20,6 +20,7 @@ public class Register extends HttpServlet {
 
 		
 		  System.out.println("in register");
+				
 		    ServletContext context=   getServletContext();
 		      
 		// Get form data
