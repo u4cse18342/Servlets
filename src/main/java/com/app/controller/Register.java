@@ -19,8 +19,8 @@ public class Register extends HttpServlet {
 			throws ServletException, IOException {
 
 		
-//		  System.out.println("in register");
-//		    ServletContext context=   getServletContext();
+		  System.out.println("in register");
+		    ServletContext context=   getServletContext();
 		      
 		// Get form data
 		String uname = request.getParameter("uname");
