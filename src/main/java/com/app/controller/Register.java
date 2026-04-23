@@ -18,6 +18,11 @@ public class Register extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
+<<<<<<< HEAD
+		
+		  System.out.println("in register");
+		 //   ServletContext context=   getServletContext();
+=======
 
 
 
@@ -25,6 +30,7 @@ public class Register extends HttpServlet {
 				
 		  System.out.println("in register");	
 		    ServletContext context=   getServletContext();
+>>>>>>> 9841db4ae9a46c3d2984b76c1bf76e622307e8f1
 		      
 		// Get form data
 		String uname = request.getParameter("uname");
