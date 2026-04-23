@@ -18,7 +18,11 @@ public class Register extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
-		
+
+
+
+
+				
 		  System.out.println("in register");	
 		    ServletContext context=   getServletContext();
 		      
