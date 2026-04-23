@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register</title>
+
+<style>
+/* Reset & Fix */
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+/* Body */
+body {
+	font-family: Arial, sans-serif;
+	background: linear-gradient(135deg, #2f4f8f, #3b5998);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+/* Card */
+.container {
+	width: 360px;
+	padding: 40px 35px;
+	background: #f2f2f2;
+	border-radius: 12px;
+	text-align: center;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading */
+h2 {
+	margin-bottom: 25px;
+	color: #2f4f8f;
+}
+
+/* Inputs */
+input {
+	width: 100%;
+	padding: 12px 14px;
+	margin: 12px 0;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	transition: 0.3s;
+}
+
+input:focus {
+	border-color: #2f4f8f;
+	outline: none;
+	box-shadow: 0 0 5px rgba(47, 79, 143, 0.5);
+}
+
+/* Button */
+input[type="submit"] {
+	background: #2f4f8f;
+	color: white;
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+	margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+	background: #243b55;
+}
+</style>
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<h2>Register Here</h2>
+
+		<form method="post" action="register">
+
+			<input type="text" name="uname" placeholder="Enter Username" required>
+
+			<input type="email" name="email" placeholder="Enter Email" required>
+
+			<input type="password" name="password" placeholder="Enter Password"
+				required> <input type="text" name="ucity"
+				placeholder="Enter City"> <input type="submit"
+				value="Sign Up">
+
+		</form>
+
+	</div>
+
+</body>
+</html>
