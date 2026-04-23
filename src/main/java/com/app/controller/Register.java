@@ -16,12 +16,7 @@ import jakarta.servlet.http.HttpSession;
 public class Register extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
-		
-		  System.out.println("in register");	
-		    ServletContext context=   getServletContext();
-
-		      
+			throws ServletException, IOException { 
 		// Get form data
 		String uname = request.getParameter("uname");
 		String email = request.getParameter("email");
